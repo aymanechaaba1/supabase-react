@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext } from 'react';
 import ChatInput from './ChatInput';
 import MessagesList from './MessagesList';
 import { supabase } from '../../supabaseClient';

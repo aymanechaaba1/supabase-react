@@ -16,7 +16,7 @@ function Header() {
       />
       <div className="flex items-center gap-3">
         <button
-          onClick={(e) => {
+          onClick={(_) => {
             if (user) logout();
             else {
               login();

@@ -1,7 +1,6 @@
 import { createContext, useState, useEffect, ReactNode } from 'react';
 import { supabase } from '../supabaseClient';
 import { User } from '@supabase/supabase-js';
-import { redirect } from 'react-router-dom';
 
 type UserContext = {
   user: User | undefined;
